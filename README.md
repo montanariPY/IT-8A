@@ -1,2 +1,2 @@
-# IT-8A
-projects for 8A class
+# 8A IT
+IT Projects from 8A.
