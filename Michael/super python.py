@@ -193,6 +193,7 @@ if (true):
 		print("Jake is listed in the phonebook.")
 	if "Jill" not in phonebook:
 		print("Jill is not listed in the phonebook.")
+# http://learnpython.org/en/Modules_and_Packages
 import re
 if (true):
 	# Your code goes here
@@ -202,3 +203,18 @@ if (true):
 			find_members.append(member)
 
 	print(sorted(find_members))
+# http://learnpython.org/en/Numpy_Arrays
+if (true):
+	weight_kg = [81.65, 97.52, 95.25, 92.98, 86.18, 88.45]
+
+	import numpy as np
+	wk = np.array(weight_kg)
+	print(wk ** 2.2)
+
+	# Create a numpy array np_weight_kg from weight_kg
+		
+
+	# Create np_weight_lbs from np_weight_kg
+
+	# Print out np_weight_lbs
+# http://learnpython.org/en/Pandas_Basics has no challenges.
