@@ -1,6 +1,6 @@
-Exersise:
+#Exercise:
 
-1:
+#1:
 x = "x"
 #object()
 y = "x"
@@ -26,13 +26,13 @@ if x_list.count(x) == 10 and y_list.count(y) == 10:
 if big_list.count(x) == 10 and big_list.count(y) == 10:
     print("Great!")
 	
-	2:
+	#2:
 	data = ("John", "Doe", 53.44)
 format_string = "Hello %s %s. Your current balance is $%s."
 
 print(format_string % data)
 
-3:
+#3:
 s = "Strings are awesome!"
 # Length should be 20
 print("Length of s = %d" % len(s))
@@ -68,7 +68,7 @@ if s.endswith("ome!"):
 # each containing only a word
 print("Split the words of the string: %s" % s.split(" "))
 
-4:
+#4:
 # change this code
 number = 16
 second_number = 0
@@ -93,7 +93,7 @@ if first_array and first_array[0] == 1:
 if not second_number:
     print("6")
 	
-	5:
+#5:
 	numbers = [
     951, 402, 984, 651, 360, 69, 408, 319, 601, 485, 980, 507, 725, 547, 544,
     615, 83, 165, 141, 501, 263, 617, 865, 575, 219, 390, 984, 592, 236, 105, 942, 941,

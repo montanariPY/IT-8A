@@ -1,8 +1,8 @@
-1.
+#1.
 print("Hello, World!")
  
  
-2.
+#2.
 # change this code
 mystring = "hello"
 myfloat = 10.0
@@ -16,9 +16,9 @@ if isinstance(myint, int) and myint == 20:
     print("Integer: %d" % myint)
  
  
-3.
-numbers = [?1?, ?2?, ?3?]
-strings = [?hello?, ?world?]
+#3.
+numbers = ['1', '2', '3']
+strings = ['hello', 'world']
 names = ["John", "Eric", "Jessica"]
 # write your code here
 numbers.append(1)
@@ -32,7 +32,7 @@ print(numbers)
 print(strings)
 print("The second name on the names list is %s" % second_name)
  
-4.
+#4.
 x = object()
 y = object()
 # TODO: change this code
@@ -48,13 +48,13 @@ if x_list.count(x) == 10 and y_list.count(y) == 10:
 if big_list.count(x) == 10 and big_list.count(y) == 10:
     print("Great!")
  
-5.
+#5.
 data = ("John", "Doe", 53.44)
 format_string = "Hello %s %s. Your current balance is $%s."
 print(format_string % data)
  
  
-6.
+#6.
 s = "Strings are awesome!"
 # Length should be 20
 print("Length of s = %d" % len(s))
@@ -83,7 +83,7 @@ if s.endswith("ome!"):
 # each containing only a word
 print("Split the words of the string: %s" % s.split(" "))
  
-7.
+#7.
 # change this code
 number = 16
 second_number = 0
@@ -103,7 +103,7 @@ if not second_number:
     print("6")
  
  
-8.
+#8.
 numbers = [
     951, 402, 984, 651, 360, 69, 408, 319, 601, 485, 980, 507, 725, 547, 544,
     615, 83, 165, 141, 501, 263, 617, 865, 575, 219, 390, 984, 592, 236, 105, 942, 941,
@@ -122,7 +122,7 @@ for number in numbers:
     print(number)
  
  
-9.
+#9.
 # Modify this function to return a list of strings as defined above
 def list_benefits():
     return "More organized code", "More readable code", "Easier code reuse", "Allowing programmers to share and connect code together"
@@ -136,7 +136,7 @@ def name_the_benefits_of_functions():
 name_the_benefits_of_functions()
  
  
-10.
+#10.
 # define the Vehicle class
 class Vehicle:
     name = ""
