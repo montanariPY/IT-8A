@@ -218,3 +218,51 @@ if (true):
 
 	# Print out np_weight_lbs
 # http://learnpython.org/en/Pandas_Basics has no challenges.
+# http://learnpython.org/en/Generators
+# fill in this function
+if (true):
+	def fib():
+		yield 1
+		last = 0
+		slast = 1
+		while (1):
+			new = last + slast
+			slast = last
+			yield new
+			last = new
+
+	# testing code
+	import types
+	if type(fib()) == types.GeneratorType:
+		print("Good, The fib function is a generator.")
+
+		counter = 0
+		for n in fib():
+			print(n)
+			counter += 1
+			if counter == 10:
+				break
+# http://learnpython.org/en/List_Comprehensions
+if (true):
+	numbers = [34.6, -203.4, 44.9, 68.3, -12.2, 44.6, 12.7]
+	newlist = [word for word in numbers if word >= 0]
+	print(newlist)
+# http://learnpython.org/en/Multiple_Function_Arguments
+if (true):
+	# edit the functions prototype and implementation
+	def foo(*c):
+		return len(c) - 3
+
+	def bar(a,b,d,**c):
+		return c.get("magicnumber") == 7
+
+
+	# test code
+	if foo(1,2,3,4) == 1:
+		print("Good.")
+	if foo(1,2,3,4,5) == 2:
+		print("Better.")
+	if bar(1,2,3,magicnumber = 6) == False:
+		print("Great.")
+	if bar(1,2,3,magicnumber = 7) == True:
+		print("Awesome!")
