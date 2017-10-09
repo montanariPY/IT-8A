@@ -1,9 +1,11 @@
-1:) Exercise: print("Hello, World!")
-2:) Exercise:
+#1:) Exercise: print("Hello, World!")
+#2:) Exercise:
+import sys;
+
 mystring = "hello"
 myfloat = 10.0
 myint = 20 
-3:) Exercise: 
+#3:) Exercise:
 numbers = []
 strings = []
 names = ["John", "Eric", "Jessica"]
@@ -22,4 +24,4 @@ second_name = names[1]
 print(numbers)
 print(strings)
 print("The second name on the names list is %s" % second_name) 
-4:) Exersice
+#4:) Exersice
